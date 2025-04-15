@@ -1,0 +1,52 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
